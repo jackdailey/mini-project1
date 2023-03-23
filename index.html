@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="short cut icon" href="images/mc-logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="stlyes/main.css">
+
+    <title>Motley Crue Image Gallery</title>
+
+</head>
+<body>
+    <header>
+        <img src="images/mc-logo.png" alt="Logo Image">
+        <h2>Motley Crue Image Gallery</h2>
+    </header>
+
+    <main>
+
+    <!-- Photo Grid -->
+    <div class="row"> 
+      <div class="column">
+        <img src="images/mc1.jpeg" style="width:100%">
+        <img src="images/mc2.jpeg" style="width:100%">
+        <img src="images/mc27.jpeg" style="width:100%">
+        <img src="images/mc4.jpeg" style="width:100%">
+        <img src="images/mc5.jpeg" style="width:100%">
+        <img src="images/mc21.jpeg" style="width:100%">
+        <img src="images/mc24.jpeg" style="width:100%">
+      </div>
+      
+      <div class="column">
+        <img src="images/mc6.jpeg" style="width:100%">
+        <img src="images/mc7.webp" style="width:100%">
+        <img src="images/mc8.jpeg" style="width:100%">
+        <img src="images/mc9.jpeg" style="width:100%">
+        <img src="images/mc10.jpeg" style="width:100%">
+        <img src="images/mc22.jpeg" style="width:100%">
+        <img src="images/mc25.jpeg" style="width:100%">
+        <img src="images/mc28.webp" style="width:100%">
+      </div> 
+       
+      <div class="column">
+        <img src="images/mc11.png" style="width:100%">
+        <img src="images/mc12.jpeg" style="width:100%">
+        <img src="images/mc113.jpeg" style="width:100%">
+        <img src="images/mc14.jpeg" style="width:100%">
+        <img src="images/mc30.jpeg" style="width:100%">
+        <img src="images/mc23.jpeg" style="width:100%">
+        <img src="images/mc26.jpeg" style="width:100%">
+        <img src="images/mc29.jpeg" style="width:100%">
+      </div>
+      
+      <div class="column">
+        <img src="images/mc16.jpeg" style="width:100%">
+        <img src="images/mc17.jpeg" style="width:100%">
+        <img src="images/mc18.webp" style="width:100%">
+        <img src="images/mc19.jpeg" style="width:100%">
+        <img src="images/mc20.jpeg" style="width:100%">
+        <img src="images/mc15.jpeg" style="width:100%">
+        
+      </div>
+    </div>
+    
+    
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyright"></span>Jackson Dailey</p>
+    </footer>
+
+     <!-- Javascript - Get Current Year for the Footer -->
+     <script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+
+</body>
+</html>
